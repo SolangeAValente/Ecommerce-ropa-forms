@@ -1,0 +1,127 @@
+body {
+    font-family: "Josefin Sans";
+}
+.landing {
+    background: url("../img/tshirt1.jpg");
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+}
+.landing__menu {
+    padding-top: 0rem;
+    horiz-align: center;
+    vertical-align: top;
+}
+.landing__titulo {
+    font-size: 4.5rem;
+    color: white;
+}
+.landing__logo {
+    width: 6rem;
+    vertical-align: baseline;
+}
+.items {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    horiz-align: center;
+}
+.subtitulo {
+    font-size: 3rem;
+    font-style: italic;
+}
+.items__descripcion {
+    font-size: 1.3rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+table {
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    horiz-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5rem;
+}
+
+.imgHorizontal {
+    width: 501px;
+}
+.imgVertical {
+    height: 334px;
+}
+.items__modelos tr td {
+    width: 40vw;
+}
+.items__modelos tr td {
+    width: 20vw;
+}
+td {
+    border-collapse: separate;
+}
+.imgCompra {
+    width: 24px;
+    vertical-align: middle;
+}
+.button {
+    vertical-align: center;
+    background-color: palevioletred;
+    border: initial;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #cd95a9;
+    color: #555454;
+}
+.formulario {
+    background: url("../img/background.jpg");
+    width: 100vw;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem;
+}
+legend h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: initial;
+    color: gray;
+}
+.formulario form {
+    width: 50rem;
+    margin-left: 10vw;
+}
+.formulario fieldset {
+    border: solid 1px rgba(95, 158, 160, 0.8);
+    border-radius: 1rem;
+}
+.inputText {
+    width: 15rem;
+    border: initial;
+    border-bottom: solid 1px rgba(95, 158, 160, 0.8);
+    background-color: rgb(95, 158, 160, 0);
+    color: #555454;
+    text-align: center;
+}
+p span {
+    font-weight: bold;
+}
+.continuar {
+    background-color: cadetblue;
+    color: white;
+    vertical-align: right;
+}
+.continuar:hover {
+    background-color: #84a7a8;
+}
